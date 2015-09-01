@@ -12,10 +12,10 @@
 
 $EM_CONF[$_EXTKEY] = array(
 	'title' => 'Page exclude in breadcrumb option',
-	'description' => 'This extension provides a checkbox in the page table where u can exclude the page in your breadcrumb',
+	'description' => 'This extension provides a checkbox in the page table where u can exclude the page from your breadcrumb',
 	'category' => 'plugin',
 	'shy' => 0,
-	'version' => '2.0.1',
+	'version' => '2.0.2',
 	'dependencies' => '',
 	'conflicts' => '',
 	'priority' => '',
@@ -23,7 +23,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'TYPO3_version' => '4.5-0.0.0',
 	'PHP_version' => '',
 	'module' => '',
-	'state' => 'beta',
+	'state' => 'stable',
 	'uploadfolder' => 0,
 	'createDirs' => '',
 	'modify_tables' => '',
