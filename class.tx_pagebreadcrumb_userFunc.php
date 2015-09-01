@@ -47,6 +47,11 @@ class tx_pagebreadcrumb_userFunc {
 		foreach($menuArr as $key => $value) {
 		
 			if(!$value['tx_pagebreadcrumb_exclude']) {
+				
+				// checks if the alternative breadcrumb title is set
+				if($value['tx_pagebreadcrumb_title'])
+					$value['title'] = $value['tx_pagebreadcrumb_title'];
+				
 				$new_menuArr[] = $value;
 			}
 		}

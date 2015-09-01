@@ -8,10 +8,12 @@
 		<languageKey index="default" type="array">
             <label index="tx_pagebreadcrumb_exclude">Include in Breadcrumb</label>
 			<label index="tx_pagebreadcrumb_exclude.0">Disable</label>
+			<label index="tx_pagebreadcrumb_title">Alternative Breadcrumb Title</label>
 		</languageKey>
 		<languageKey index="nl" type="array">
             <label index="tx_pagebreadcrumb_exclude">Opnemen in Breadcrumb</label>
 			<label index="tx_pagebreadcrumb_exclude.0">Uitschakelen</label>
+			<label index="tx_pagebreadcrumb_title">Alternatieve Breadcrumb Titel</label>
 		</languageKey>
 	</data>
 </T3locallang>
