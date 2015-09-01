@@ -46,10 +46,13 @@ class tx_pagebreadcrumb_userFunc {
 		$new_menuArr = array();
 		foreach($menuArr as $key => $value) {
 		
-			$new_menuArr[] = $value;
-		
+			if(!$value['tx_pagebreadcrumb_exclude']) {
+				$new_menuArr[] = $value;
+			}
 		}
 		return $new_menuArr;
 	}
 	
 }
+
+?>
