@@ -3,7 +3,7 @@
 ########################################################################
 # Extension Manager/Repository config file for ext "pagebreadcrumb".
 #
-# Auto generated 01-09-2015 21:05
+# Auto generated 15-08-2015 23:20
 #
 # Manual updates:
 # Only the data in the array - everything else is removed by next
@@ -15,7 +15,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'description' => 'This extension provides a checkbox in the page table where u can exclude the page from your breadcrumb',
 	'category' => 'plugin',
 	'shy' => 0,
-	'version' => '3.0.0',
+	'version' => '3.0.1',
 	'dependencies' => '',
 	'conflicts' => '',
 	'priority' => '',

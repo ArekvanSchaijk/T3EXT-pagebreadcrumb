@@ -9,6 +9,7 @@ $tempColumns = array(
 	'tx_pagebreadcrumb_exclude' => array(
 		'exclude' => 1,
 		'label' => 'LLL:EXT:pagebreadcrumb/Resources/Private/Language/locallang_db.xml:tx_pagebreadcrumb_exclude',
+		'displayCond' => 'FIELD:doktype:=:1',
 		'config' => array(
 			'type' => 'check',
 			'items' => array(
@@ -28,6 +29,7 @@ $tempColumns = array(
 	'tx_pagebreadcrumb_title' => array(
 		'exclude' => 0,
 		'label' => 'LLL:EXT:pagebreadcrumb/Resources/Private/Language/locallang_db.xml:tx_pagebreadcrumb_title',
+		'displayCond' => 'FIELD:doktype:=:1',
 		'config' => array(
 			'type' => 'input',
 			'size' => 50,
