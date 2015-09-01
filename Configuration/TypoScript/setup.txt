@@ -1,0 +1,5 @@
+# Example how to use in TMENU
+#
+# lib.menu.1.itemArrayProcFunc = tx_pagebreadcrumb_userFunc->renderMenuItems
+
+page.includeLibs.pagebreadcrumb = EXT:pagebreadcrumb/class.tx_pagebreadcrumb_userFunc.php
